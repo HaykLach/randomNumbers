@@ -1,0 +1,23 @@
+{
+  "name": "random/numbers",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Hayk",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RandomNumbers\\": "src"
+    },
+    "files": [
+      "config/constants.php"
+    ]
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
